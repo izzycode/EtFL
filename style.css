@@ -1,0 +1,54 @@
+body{
+  
+  background-color: black;
+
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  
+  -webkit-align-items: center;
+  align-items: center;
+
+/*  font-family: 'Great Vibes', cursive;*/
+  font-family: 'Mr De Haviland', cursive;
+  color: white;
+  border: 2px dotted red;
+}
+
+#container{
+  height: 97vh;
+  border: 2px solid blue;
+}
+
+h1{
+  position: relative;
+  font-size: 5em;
+  border: 2px dotted pink;
+
+}
+
+#secondary{
+  border: 2px solid violet;
+  position: relative;
+}
+
+h2{
+  position: relative;
+  font-size: 3em;
+  border: 2px solid green;
+}
+
+p{
+  display: inline;
+  position: absolute;
+  font-size: 2em;
+  bottom: 0;
+  right: 0;
+  border: 2px dotted yellow;
+  margin: 0;
+}
+
