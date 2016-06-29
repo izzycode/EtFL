@@ -8,8 +8,7 @@ body{
   
   color: white;
   position: absolute;
-  
-  border: 5px dotted red;
+  order: 5px dotted red;*/
 }
 
 h1{
@@ -18,9 +17,6 @@ h1{
   font-weight: 200;
   text-align: center;
   margin: 10% 0 5px 0;
-  
-/*  border: 2px dotted pink;*/
-
 }
 
 
@@ -30,8 +26,6 @@ h2{
   font-weight: 200;
   text-align: center;
   margin: 5px 0;
-
-/*  border: 2px solid green;*/
 }
 
 p{
@@ -40,12 +34,12 @@ p{
   font-size: 5vh;
   text-align: right;
   margin: 5px 10% 10% 0;
-  
-  border: 2px dotted yellow;
 }
 
+
 img{
+  display:block;
   position: relative;
   height: 50vh;  
-/*  border: 1px dotted teal;*/
+  margin: 0 auto;
 }
