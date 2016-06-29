@@ -1,4 +1,4 @@
-html{
+body{
   height: 100vh;
   width: 100vw;
   background-color: black;
@@ -7,55 +7,45 @@ html{
 /*  font-family: 'Mr De Haviland', cursive;*/
   
   color: white;
-  border: 5px dotted red;
-  position: relative;
+  position: absolute;
   
+  border: 5px dotted red;
 }
 
 h1{
   position: relative;
   font-size: 10vh;
   font-weight: 200;
-  border: 2px dotted pink;
   text-align: center;
   margin: 10% 0 5px 0;
+  
+/*  border: 2px dotted pink;*/
+
 }
 
-/*
-#secondary{
-  height: 100vh;
-  width: 100vw;
-*/
-/*
-  border: 2px solid violet;
-  position: relative;
-  margin: 0;
-  bottom: -50%;
-*/
-}
 
 h2{
   position: relative;
-  font-size: 15vh;
+  font-size: 10vh;
   font-weight: 200;
   text-align: center;
   margin: 5px 0;
 
-  border: 2px solid green;
+/*  border: 2px solid green;*/
 }
 
 p{
   display: block;
   position: relative;
-  font-size: 6vh;
+  font-size: 5vh;
   text-align: right;
+  margin: 5px 10% 10% 0;
+  
   border: 2px dotted yellow;
-  margin: 5px 10% 0 0;
 }
 
 img{
   position: relative;
-  height: 50vh;
-  margin: 0 35%;
-  border: 1px dotted teal;
+  height: 50vh;  
+/*  border: 1px dotted teal;*/
 }
